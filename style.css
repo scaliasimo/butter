@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 html {
     background-color: #FFFD63;
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 
 header {
@@ -339,3 +340,248 @@ footer a {
 footer img {
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+ 
+header div.menu {
+    display: none;
+}
+
+header div.lr-btn {
+    display: none;
+}
+
+div.logo {
+    float: none;
+    text-align: center;
+    margin: 0;
+}
+
+div.hero {
+    max-width: 900px;
+    margin: 30px auto;
+    height: auto;
+    padding: 0 15px;
+}
+
+div.hero > h1 {
+    font-family: 'Fascinate';
+    font-size: 35px;
+    text-align: center;
+}
+
+div.hero > p {
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    width: auto;
+    margin: 40px auto;
+    line-height: 1.3;
+}
+
+div.hero-img > img {
+    margin-top: 60px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+a.hero-btn {
+    font-family: 'Inter';
+    font-size: 14px;
+    text-decoration: none;
+    background: #0A0B1E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 32px;
+}
+
+div.companies > h3 {
+    font-family: 'Fascinate';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+div.companies > img {
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+
+a.hero-btn:last-child {
+    margin-right: 0px;
+}
+
+div.perks-1 > section.text {
+    width: 100%;
+    float: none;
+    padding: 0 50px;
+    position: inherit;
+    top: 0%;
+    transform: none;
+}
+
+div.perks-1 > section.text > h2 {
+    font-family: 'Fascinate';
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+div.perks-1 > section.img {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+}
+
+div.perks-1 > section.text {
+    width: 100%;
+    float: none;
+    padding: 0 25px;
+    position: inherit;
+    top: 0%;
+    transform: none;
+}
+
+div.perks-1 > section.img > img {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+
+div.perks-2 > section.text {
+    width: 100%;
+    float: none;
+    padding: 0 50px;
+    position: inherit;
+    top: 0%;
+    transform: none;
+}
+
+div.perks-2 > section.text > h2 {
+    font-family: 'Fascinate';
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+div.perks-2 > section.img {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+}
+
+div.perks-2 > section.text {
+    width: 100%;
+    float: none;
+    padding: 0 25px;
+    position: inherit;
+    top: 0%;
+    transform: none;
+}
+
+div.perks-2 > section.img > img {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+
+div.perks-3 > section.text {
+    width: 100%;
+    float: none;
+    padding: 0 50px;
+    position: inherit;
+    top: 0%;
+    transform: none;
+    margin-top: 70px;
+}
+
+div.perks-3 > section.text > h2 {
+    font-family: 'Fascinate';
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+div.perks-3 > section.img {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+}
+
+div.perks-3 > section.text {
+    width: 100%;
+    float: none;
+    padding: 0 25px;
+    position: inherit;
+    top: 0%;
+    transform: none;
+}
+
+div.perks-3 > section.img > img {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+
+div.reviews > img {
+    display: none;
+}
+
+section.faq {
+    text-align: center;
+    background: WHITE;
+    border: 1px solid #0A0B1E;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+section.faq > a.text {
+    float: left;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+section.faq a:first-child {
+    margin-right: 10px;
+}
+
+footer {
+    padding: 40px 40px 50px 40px;
+    background: #0A0B1E;
+    display: block;
+}
+
+footer div {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+footer div:first-child {
+    text-align: center;
+}
+
+a.hero-btn:last-child {
+    font-family: 'Inter';
+    font-size: 14px;
+    text-decoration: none;
+    background: white;
+    color: #0A0B1E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #0A0B1E;
+}
+
+  }
